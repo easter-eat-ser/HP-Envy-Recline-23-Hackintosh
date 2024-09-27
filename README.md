@@ -1,6 +1,9 @@
-# HP-Envy-Recline-23-Hackintosh
+# HP Envy Recline 23 Hackintosh
 OpenCore EFI for an HP Envy 23 Recline. Runs Big Sur, should work on newer versions
-OCSysInfo:
+## Notes:
+Dedicated GPU is supported in MacOS Big Sur or lower, but cannot be used for display output as it uses Nvidia Optimus. This cannot be worked around, unfortunately.
+## OCSysInfo:
+```
 ─ CPU
   └── Intel(R) Core(TM) i5-4570T CPU @ 2.90GHz
       ├── SSE: SSE4.2
@@ -55,3 +58,4 @@ OCSysInfo:
       ├── Connector: SCSI
       └── Location: Internal
 
+```
